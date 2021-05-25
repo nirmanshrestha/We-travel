@@ -196,9 +196,13 @@ $theme:#FF9F1C;
         border-right:30px solid transparent ;
         border-top: 30px solid #fff;
 }
-    .customer p{
+    .customer {
+        
+    
+    p{
         margin-bottom: 10px;
     }
+}
 }
     .pro-teams{
         .team-info-flex{
@@ -363,6 +367,46 @@ $theme:#FF9F1C;
    }
    .navbar-light .navbar-toggler-icon{
        color: white;
+   }
+   @media screen and (max-width:1200px) {
+    .reviews{
+        .review-container{
+            margin: 50px auto;
+        }
+    }
+    .pro-teams{
+        .team-img1,.team-img2,.team-img3{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            
+        }
+        
+    }
+   }
+   @media screen and (max-width:900px){
+    .reviews{
+        .review-container{
+            margin: 50px 20%;
+        }
+    }
+    .pro-teams{
+        .team-img1{
+            margin: auto;
+            width: 360px;
+            height: 360px;
+        }
+        .hide{
+            display: none;
+        }
+       
+            .team-img1,.team-img2,.team-img3{
+                width: 200px;
+                height: 200px;
+                
+            }
+    }
+    
    }
 @media screen and (max-width:700px) {
     .header{
