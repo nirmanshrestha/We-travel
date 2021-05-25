@@ -1,0 +1,605 @@
+.header {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/Eiffel-Tower-Picture-Wallpaper-1920x1200.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/Eiffel-Tower-Picture-Wallpaper-1920x1200.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .middle-header {
+  text-align: center;
+  color: white;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.popular-tour .owl-carousel .owl-item img {
+  height: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+}
+
+.popular-tour .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular-tour .info .left h3 {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.popular-tour .info .right-price span {
+  font-weight: 500;
+  color: #FF9F1C;
+}
+
+.popular-tour .slider-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 75px;
+  right: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.popular-tour .slider-btn .left-arrow, .popular-tour .slider-btn .right-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FF9F1C;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
+.who .we-back-img {
+  height: 315px;
+  width: 100%;
+  background: url(../Image/we.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.features h4 {
+  padding: 8px 0px;
+  font-size: 20px;
+}
+
+.features .feature1 i, .features .feature2 i {
+  font-size: 36px;
+  color: #FF9F1C;
+}
+
+.features .feature2 {
+  margin-top: 20px;
+}
+
+.vdo {
+  position: relative;
+  overflow: hidden;
+}
+
+.vdo .vdo video {
+  width: 100%;
+  height: 100%;
+}
+
+.vdo .overlay-wcs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: 1;
+}
+
+.vdo .txt .txt {
+  top: -400px;
+  z-index: 22;
+}
+
+.tour-galary .tour-bg-img1 {
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/shey.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/shey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img2 {
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/taj.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/taj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img3 {
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/istambul.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/istambul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img4 {
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/singapor.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/singapor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/japan.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/japan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img6 {
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../Image/switzerland.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../Image/switzerland.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-galary .tour-bg-img1, .tour-galary .tour-bg-img2, .tour-galary .tour-bg-img3, .tour-galary .tour-bg-img4, .tour-galary .tour-bg-img5, .tour-galary .tour-bg-img6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.reviews {
+  background-color: #FF9F1C;
+}
+
+.reviews .review-container {
+  width: 360px;
+  height: 200px;
+  margin: auto 5px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.reviews .pointy {
+  bottom: -30px;
+  background-color: transparent;
+  height: 30px;
+  width: 60px;
+  left: 15px;
+  border-left: 30px  solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #fff;
+}
+
+.reviews .customer p {
+  margin-bottom: 10px;
+}
+
+.pro-teams .team-info-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 5px 20px;
+          box-shadow: 1px 5px 20px;
+}
+
+.pro-teams .team-img1 {
+  background: url(../Image/Ellipse2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro-teams .team-img2 {
+  background: url(../Image/Ellipse3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro-teams .team-img3 {
+  background: url(../Image/Ellipse4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro-teams .team-discription {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pro-teams .team-discription p {
+  font-size: 12px;
+}
+
+.interested {
+  height: 60vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.7))), url(../Image/italy.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../Image/italy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quary .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quary .contacts .location, .quary .contacts .number, .quary .contacts .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quary .contacts .qu-circle {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 1px dashed #FF9F1C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FF9F1C;
+  font-size: 32px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .form-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+form .form-info input {
+  width: 350px;
+  border-radius: 20px;
+  outline: transparent;
+  border: transparent;
+  background-color: wheat;
+  padding: 5px 15px;
+}
+
+form .msg-area {
+  width: 100%;
+}
+
+form .msg-area textarea {
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: transparent;
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: wheat;
+}
+
+form .submit {
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FF9F1C;
+  color: white;
+  border: transparent;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+.footer .services ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .icons .fb, .footer .icons .insta, .footer .icons .tweet, .footer .icons .gplus, .footer .icons .linkedin {
+  height: 45px;
+  width: 45px;
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+}
+
+.header .navbar-light .navbar-nav .nav-link :hover {
+  color: #FF9F1C;
+}
+
+.navbar-light .navbar-toggler-icon {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews .review-container {
+    margin: 50px auto;
+  }
+  .pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .reviews .review-container {
+    margin: 50px 20%;
+  }
+  .pro-teams .team-img1 {
+    margin: auto;
+    width: 360px;
+    height: 360px;
+  }
+  .pro-teams .hide {
+    display: none;
+  }
+  .pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header svg {
+    width: 150px;
+  }
+  .header .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: white;
+    background-color: #212529;
+  }
+  .header .navbar-light .navbar-nav .nav-link:hover {
+    background: #212529;
+    color: #FF9F1C;
+  }
+  .header .middle-header h1 {
+    font-size: 25px;
+  }
+  .header .middle-header p {
+    font-size: 12px;
+  }
+  .header .middle-header .text-warning {
+    font-size: 30px;
+  }
+  .header .middle-header span {
+    font-size: 12px;
+  }
+  .popular-tour .slider-btn {
+    top: 65px;
+  }
+  .popular-tour .info .left h3 {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .popular-tour .info .left p {
+    font-size: 10px;
+  }
+  .popular-tour .info .right-price span {
+    font-size: 12px;
+  }
+  .who .we-right-text h4 {
+    padding-top: 15px;
+    font-size: 17px;
+  }
+  .who .we-right-text p {
+    font-size: 12px;
+  }
+  .who .we-right-text span {
+    font-size: 12px;
+  }
+  .features h4 {
+    font-size: 16px;
+  }
+  .features p {
+    font-size: 13px;
+  }
+  .reviews .review-container {
+    margin: 50px auto;
+  }
+  .pro-teams .team-info-flex .team-info {
+    margin: auto;
+  }
+  .pro-teams .team-info-flex .hide {
+    display: none;
+  }
+  .interested .interest-tour h1 {
+    font-size: 25px;
+  }
+  .interested .interest-tour p {
+    font-size: 13px;
+  }
+  .interested .interest-tour span {
+    font-size: 12px;
+  }
+  .quary .contacts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .quary form .form-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .quary form .form-info input {
+    margin: 7px auto;
+  }
+  .footer .footer-logo svg {
+    width: 120px;
+  }
+  .footer .footer-logo p {
+    font-size: 14px;
+  }
+  .footer .services h4 {
+    font-size: 18px;
+  }
+  .footer .services ul li {
+    font-size: 13px;
+  }
+  .footer .follow-us {
+    padding-bottom: 15px;
+  }
+  .footer .follow-us h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header svg {
+    width: 150px;
+  }
+  .header .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: white;
+    background-color: #212529;
+  }
+  .header .navbar-light .navbar-nav .nav-link:hover {
+    background: #212529;
+    color: #FF9F1C;
+  }
+  .rwd-hide {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
