@@ -454,6 +454,13 @@ form .submit {
 }
 
 @media screen and (max-width: 1200px) {
+  .header .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .header .navbar-light .navbar-nav .nav-link:hover {
+    background: #212529;
+    color: #FF9F1C;
+  }
   .reviews .review-container {
     margin: 50px auto;
   }
@@ -465,18 +472,27 @@ form .submit {
 }
 
 @media screen and (max-width: 900px) {
-  .reviews .review-container {
+  .header .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: white;
+    background-color: #212529;
+  }
+  .header .navbar-light .navbar-nav .nav-link:hover {
+    background: #212529;
+    color: #FF9F1C;
+  }
+  .header .reviews .review-container {
     margin: 50px 20%;
   }
-  .pro-teams .team-img1 {
+  .header .pro-teams .team-img1 {
     margin: auto;
     width: 360px;
     height: 360px;
   }
-  .pro-teams .hide {
+  .header .pro-teams .hide {
     display: none;
   }
-  .pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
+  .header .pro-teams .team-img1, .header .pro-teams .team-img2, .header .pro-teams .team-img3 {
     width: 200px;
     height: 200px;
   }
