@@ -434,6 +434,20 @@ $theme:#FF9F1C;
     
    }
 }
+.up{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: #FF9F1C;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
 @media screen and (max-width:700px) {
     .header{
         svg{
@@ -597,5 +611,12 @@ $theme:#FF9F1C;
 }
 .rwd-hide{
     display: none;
-}   
+}
+
+}
+@media screen and (max-width:400px) {
+    .customer{
+        padding-top: 2.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }  
 }
