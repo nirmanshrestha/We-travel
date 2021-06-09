@@ -42,10 +42,16 @@ $(window).scroll(function(){
        
         $("#header").addClass('bg-dark');
         $("header").removeClass('bg-transparent')
+        $(".up").show()
     }
     else{
         
         $("#header").removeClass('bg-dark');
         $("header").addClass('bg-transparent')
+        $(".up").hide()
     }
+});
+
+$(".up").click(function (){
+    $(window).scrollTop(0);
 })
