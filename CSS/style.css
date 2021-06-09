@@ -498,6 +498,26 @@ form .submit {
   }
 }
 
+.up {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  background-color: #FF9F1C;
+  z-index: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 700px) {
   .header svg {
     width: 150px;
@@ -616,6 +636,13 @@ form .submit {
   }
   .rwd-hide {
     display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .customer {
+    padding-top: 2.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
