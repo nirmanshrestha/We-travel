@@ -55,7 +55,7 @@
 
 .popular-tour .info .right-price span {
   font-weight: 500;
-  color: #FF9F1C;
+  color: #ff9f1c;
 }
 
 .popular-tour .slider-btn {
@@ -71,7 +71,8 @@
   color: white;
 }
 
-.popular-tour .slider-btn .left-arrow, .popular-tour .slider-btn .right-arrow {
+.popular-tour .slider-btn .left-arrow,
+.popular-tour .slider-btn .right-arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +82,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #FF9F1C;
+  background: #ff9f1c;
   padding: 5px 10px;
   margin: 0px 5px;
 }
@@ -101,9 +102,10 @@
   font-size: 20px;
 }
 
-.features .feature1 i, .features .feature2 i {
+.features .feature1 i,
+.features .feature2 i {
   font-size: 36px;
-  color: #FF9F1C;
+  color: #ff9f1c;
 }
 
 .features .feature2 {
@@ -127,7 +129,7 @@
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: .5;
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -189,7 +191,12 @@
   background-position: center;
 }
 
-.tour-galary .tour-bg-img1, .tour-galary .tour-bg-img2, .tour-galary .tour-bg-img3, .tour-galary .tour-bg-img4, .tour-galary .tour-bg-img5, .tour-galary .tour-bg-img6 {
+.tour-galary .tour-bg-img1,
+.tour-galary .tour-bg-img2,
+.tour-galary .tour-bg-img3,
+.tour-galary .tour-bg-img4,
+.tour-galary .tour-bg-img5,
+.tour-galary .tour-bg-img6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,18 +207,19 @@
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
+  height: 50vh;
 }
 
 .reviews {
-  background-color: #FF9F1C;
+  background-color: #ff9f1c;
 }
 
 .reviews .review-container {
-  width: 360px;
-  height: 200px;
-  margin: auto 5px;
   padding: 15px;
   font-size: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .reviews .pointy {
@@ -220,13 +228,26 @@
   height: 30px;
   width: 60px;
   left: 15px;
-  border-left: 30px  solid transparent;
+  border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-top: 30px solid #fff;
 }
 
 .reviews .customer p {
   margin-bottom: 10px;
+}
+
+.rev {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
 }
 
 .pro-teams .team-info-flex {
@@ -241,13 +262,16 @@
           align-items: center;
 }
 
-.pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
-  width: 360px;
-  height: 360px;
+.pro-teams .team-img1,
+.pro-teams .team-img2,
+.pro-teams .team-img3 {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   -webkit-box-shadow: 1px 5px 20px;
           box-shadow: 1px 5px 20px;
+  margin: auto;
 }
 
 .pro-teams .team-img1 {
@@ -314,7 +338,9 @@
           align-items: center;
 }
 
-.quary .contacts .location, .quary .contacts .number, .quary .contacts .email {
+.quary .contacts .location,
+.quary .contacts .number,
+.quary .contacts .email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +356,7 @@
   height: 55px;
   width: 55px;
   border-radius: 50%;
-  border: 1px dashed #FF9F1C;
+  border: 1px dashed #ff9f1c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -340,7 +366,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FF9F1C;
+  color: #ff9f1c;
   font-size: 32px;
 }
 
@@ -361,6 +387,10 @@ form .form-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -395,7 +425,7 @@ form .submit {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FF9F1C;
+  background-color: #ff9f1c;
   color: white;
   border: transparent;
   padding: 10px 30px;
@@ -423,7 +453,11 @@ form .submit {
           align-items: center;
 }
 
-.footer .icons .fb, .footer .icons .insta, .footer .icons .tweet, .footer .icons .gplus, .footer .icons .linkedin {
+.footer .icons .fb,
+.footer .icons .insta,
+.footer .icons .tweet,
+.footer .icons .gplus,
+.footer .icons .linkedin {
   height: 45px;
   width: 45px;
   background-color: rgba(0, 0, 0, 0.39);
@@ -445,8 +479,8 @@ form .submit {
   color: white;
 }
 
-.header .navbar-light .navbar-nav .nav-link :hover {
-  color: #FF9F1C;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff9f1c;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -457,21 +491,22 @@ form .submit {
   .header .navbar-light .navbar-nav .nav-link {
     text-align: center;
   }
-  .header .navbar-light .navbar-nav .nav-link:hover {
-    background: #212529;
-    color: #FF9F1C;
-  }
-  .reviews .review-container {
-    margin: 50px auto;
-  }
-  .pro-teams .team-img1, .pro-teams .team-img2, .pro-teams .team-img3 {
+  .pro-teams .team-img1,
+  .pro-teams .team-img2,
+  .pro-teams .team-img3 {
     width: 200px;
     height: 200px;
     margin: auto;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+  #rev3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .header .navbar-light .navbar-nav .nav-link {
     text-align: center;
     color: white;
@@ -479,7 +514,7 @@ form .submit {
   }
   .header .navbar-light .navbar-nav .nav-link:hover {
     background: #212529;
-    color: #FF9F1C;
+    color: #ff9f1c;
   }
   .header .reviews .review-container {
     margin: 50px 20%;
@@ -492,7 +527,9 @@ form .submit {
   .header .pro-teams .hide {
     display: none;
   }
-  .header .pro-teams .team-img1, .header .pro-teams .team-img2, .header .pro-teams .team-img3 {
+  .header .pro-teams .team-img1,
+  .header .pro-teams .team-img2,
+  .header .pro-teams .team-img3 {
     width: 200px;
     height: 200px;
   }
@@ -504,7 +541,7 @@ form .submit {
   position: fixed;
   bottom: 20px;
   right: 50px;
-  background-color: #FF9F1C;
+  background-color: #ff9f1c;
   z-index: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,7 +555,7 @@ form .submit {
   cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .header svg {
     width: 150px;
   }
@@ -529,7 +566,7 @@ form .submit {
   }
   .header .navbar-light .navbar-nav .nav-link:hover {
     background: #212529;
-    color: #FF9F1C;
+    color: #ff9f1c;
   }
   .header .middle-header h1 {
     font-size: 25px;
@@ -572,8 +609,13 @@ form .submit {
   .features p {
     font-size: 13px;
   }
-  .reviews .review-container {
-    margin: 50px auto;
+  .reviews .rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px;
+    padding: 0;
   }
   .pro-teams .team-info-flex .team-info {
     margin: auto;
@@ -621,6 +663,17 @@ form .submit {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .rev {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header svg {
     width: 150px;
@@ -632,7 +685,7 @@ form .submit {
   }
   .header .navbar-light .navbar-nav .nav-link:hover {
     background: #212529;
-    color: #FF9F1C;
+    color: #ff9f1c;
   }
   .rwd-hide {
     display: none;

@@ -1,622 +1,616 @@
-$theme:#FF9F1C;
+$theme: #ff9f1c;
 
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(../Image/Eiffel-Tower-Picture-Wallpaper-1920x1200.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .middle-header {
+    text-align: center;
+    color: white;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+}
+.popular-tour {
+  .owl-carousel .owl-item img {
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left h3 {
+      font-size: 20px;
+      padding-top: 5px;
+    }
+    .right-price span {
+      font-weight: 500;
+      color: #ff9f1c;
+    }
+  }
+  .slider-btn {
+    display: flex;
+    justify-content: space-between;
+    top: 75px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
 
-.header{
-    height: 100vh;
-    background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/Eiffel-Tower-Picture-Wallpaper-1920x1200.jpg) ;
+    .left-arrow,
+    .right-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ff9f1c;
+      padding: 5px 10px;
+      margin: 0px 5px;
+    }
+  }
+}
+
+.who {
+  .we-back-img {
+    height: 315px;
+    width: 100%;
+    background: url(../Image/we.jpg);
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+}
+.features {
+  h4 {
+    padding: 8px 0px;
+    font-size: 20px;
+  }
+  .feature1,
+  .feature2 {
+    i {
+      font-size: 36px;
+      color: $theme;
+    }
+  }
+  .feature2 {
+    margin-top: 20px;
+  }
+}
+.vdo {
+  position: relative;
+  overflow: hidden;
+  .vdo video {
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-wcs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .txt {
+    .txt {
+      top: -400px;
+      z-index: 22;
+    }
+  }
+}
+.tour-galary {
+  .tour-bg-img1 {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/shey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img2 {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/taj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img3 {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/istambul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img4 {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/singapor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/japan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img6 {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url(../Image/switzerland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tour-bg-img1,
+  .tour-bg-img2,
+  .tour-bg-img3,
+  .tour-bg-img4,
+  .tour-bg-img5,
+  .tour-bg-img6 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    .middle-header{
-        text-align: center;
-        color: white;
-    }
-    .navbar-light .navbar-nav .nav-link{
-        color: white;
-    }
+    color: #fff;
+    height: 50vh;
+  }
 }
-.popular-tour{
-   .owl-carousel .owl-item img{
-       height: 200px;
-       background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5));
-   }
-   .info{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       .left h3{
-        font-size: 20px;
-        padding-top: 5px;
-       }
-       .right-price span{
-           font-weight: 500;
-           color: #FF9F1C;
-       }
-   }
-   .slider-btn{
-       display: flex;
-       justify-content: space-between;
-       top: 75px;
-       right: 20px;
-       font-size: 20px;
-       color: white;
-       
-       .left-arrow,.right-arrow{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           background: #FF9F1C;
-           padding: 5px 10px;
-           margin: 0px 5px;
-          
-       }
-    }
+.reviews {
+  background-color: #ff9f1c;
 }
 
-.who{
-   
-   .we-back-img{
-       height: 315px;
-       width: 100%;
-       background: url(../Image/we.jpg);
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-       border-radius: 20px;
-   }
-
-
+.reviews .review-container {
+  padding: 15px;
+  font-size: 15px;
+  height: fit-content;
 }
-.features{
-    h4{
-        padding: 8px 0px;
-        font-size: 20px;
-    }
-    .feature1, .feature2{
-        i{
-            font-size: 36px;
-            color: $theme;
-        }
-    }
-    .feature2{
-        margin-top: 20px;
-    }
+
+.reviews .pointy {
+  bottom: -30px;
+  background-color: transparent;
+  height: 30px;
+  width: 60px;
+  left: 15px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #fff;
 }
-.vdo{
-    position: relative;
+
+.reviews .customer p {
+  margin-bottom: 10px;
+}
+.rev {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.pro-teams {
+  .team-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .team-img1,
+  .team-img2,
+  .team-img3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     overflow: hidden;
-    .vdo video{
-        width: 100%;
-        height: 100%;
+    box-shadow: 1px 5px 20px;
+    margin: auto;
+  }
+  .team-img1 {
+    background: url(../Image/Ellipse2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .team-img2 {
+    background: url(../Image/Ellipse3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .team-img3 {
+    background: url(../Image/Ellipse4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .team-discription {
+    margin-top: 20px;
+    text-align: center;
+    p {
+      font-size: 12px;
     }
-    .overlay-wcs{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: .5;
-        z-index: 1;
-    }
-    .txt{
-        .txt{
-            top: -400px;
-            z-index: 22;
-        }
-
-    }
+  }
 }
-.tour-galary{
-    .tour-bg-img1{
-        height: 250px;
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/shey.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img2{
-        height: 250px;
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/taj.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img3{
-        height: 250px;
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/istambul.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img4{
-        height: 250px;
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/singapor.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img5{
-        
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/japan.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img6{
-        height: 250px;
-        
-        background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url(../Image/switzerland.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .tour-bg-img1, .tour-bg-img2,.tour-bg-img3, .tour-bg-img4, .tour-bg-img5, .tour-bg-img6{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-    }
-   
-}
-.reviews{
-    background-color: #FF9F1C;
-    
-    .review-container{
-        width: 360px;
-        height: 200px;
-        margin: auto 5px;
-        padding: 15px;
-        font-size: 15px;
-       
-    }
-    .pointy{
-        bottom: -30px;
-        background-color: transparent;
-        height: 30px;
-        width: 60px;
-        left:15px;
-        border-left:30px  solid transparent;
-        border-right:30px solid transparent ;
-        border-top: 30px solid #fff;
-}
-    .customer {
-        
-    
-    p{
-        margin-bottom: 10px;
-    }
-}
-}
-    .pro-teams{
-        .team-info-flex{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .team-img1, .team-img2, .team-img3{
-            
-            width: 360px;
-            height: 360px;
-            border-radius: 50%;
-            overflow: hidden;
-            box-shadow: 1px 5px 20px;
+.interested {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../Image/italy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-        }
-        .team-img1{
-            background: url(../Image/Ellipse2.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
-        }
-        .team-img2{
-            background: url(../Image/Ellipse3.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .team-img3{
-            background: url(../Image/Ellipse4.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .team-discription{
-            margin-top: 20px;
-            text-align: center;
-            p{
-                font-size: 12px;
-            }
-        }
-
-    }
-    .interested{
-        height: 60vh;
-        background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)), url(../Image/italy.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-           
-        }
-
-   .quary{
-       .contacts{
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           
-           .location, .number, .email{
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-           }
-           
-           
-           
-           
-           .qu-circle{
-               height: 55px;
-               width: 55px;
-               border-radius: 50%;
-               border: 1px dashed $theme;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               color: $theme;
-               font-size: 32px;
-           }
-       }
-   }
-   form{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       
-    .form-info{
-        display: flex;
-        justify-content: space-between;
-        
-        width: 100%;
-       
-       }
-       .form-info input{
-           width: 350px;
-           border-radius: 20px;
-           outline: transparent;
-           border: transparent;
-           background-color: wheat;
-           padding: 5px 15px;
-       }
-       .msg-area{
-           width: 100%;
-       }
-       .msg-area textarea{
-           width: 100%;
-           resize: none;
-           outline: none;
-           border: transparent;
-           border-radius: 20px;
-           padding:5px 15px;
-           background-color: wheat;
-       }
-       .submit{
-           width: 200px;
-           align-items:center ;
-           background-color: $theme;
-           color: white;
-           border: transparent;
-           padding:10px 30px ;
-           border-radius: 20px;
-           
-       }
-   }
-   .footer{
-       background-color: #333333;
-       .services{
-           ul li{
-               list-style: none;
-               padding: 5px;
-           }
-       }
-       .icons{
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           .fb, .insta, .tweet, .gplus, .linkedin{
-               height: 45px;
-               width: 45px;
-               background-color: rgba(0,0,0,.39);
-               border-radius: 50%;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               color: white;
-               font-size: 25px;
-           }
-       }
-   }
-   .navbar-light .navbar-toggler{
-       color: white;
-       
-   }
-   .header .navbar-light .navbar-nav .nav-link :hover{
-       color: $theme;
-   }
-   .navbar-light .navbar-toggler-icon{
-       color: white;
-   }
-   @media screen and (max-width:1200px) {
-    .header{
-        
-        .navbar-light .navbar-nav .nav-link{
-                text-align: center;
-               
-            
-        }
-        .navbar-light .navbar-nav .nav-link:hover{
-            background: #212529;
-            color: $theme;
-        }
-    }
-    .reviews{
-        .review-container{
-            margin: 50px auto;
-        }
-    }
-    .pro-teams{
-        .team-img1,.team-img2,.team-img3{
-            width: 200px;
-            height: 200px;
-            margin: auto;
-            
-        }
-        
-    }
-   }
-   @media screen and (max-width:900px){
-    .header{
-        
-        .navbar-light .navbar-nav .nav-link{
-                text-align: center;
-                color: white;
-                background-color: #212529;
-            
-        }
-        .navbar-light .navbar-nav .nav-link:hover{
-            background: #212529;
-            color: $theme;
-        }
-    
-    .reviews{
-        .review-container{
-            margin: 50px 20%;
-        }
-    }
-    .pro-teams{
-        .team-img1{
-            margin: auto;
-            width: 360px;
-            height: 360px;
-        }
-        .hide{
-            display: none;
-        }
-       
-            .team-img1,.team-img2,.team-img3{
-                width: 200px;
-                height: 200px;
-                
-            }
-    }
-    
-   }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.up{
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    background-color: #FF9F1C;
-    z-index: 500;
+
+.quary {
+  .contacts {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    cursor: pointer;
-    
+
+    .location,
+    .number,
+    .email {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .qu-circle {
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      border: 1px dashed $theme;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $theme;
+      font-size: 32px;
+    }
+  }
 }
-@media screen and (max-width:700px) {
-    .header{
-        svg{
-            width: 150px;
-        }
-        .navbar-light .navbar-nav .nav-link{
-                text-align: center;
-                color: white;
-                background-color: #212529;
-            
-        }
-        .navbar-light .navbar-nav .nav-link:hover{
-            background: #212529;
-            color: $theme;
-        }
-        .middle-header{
-            h1{
-                font-size: 25px;
-            }
-            p{
-                font-size: 12px;
-            }
-            .text-warning{
-                font-size: 30px;
-            }
-            span{
-                font-size: 12px;
-            }
-        }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .form-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+  .form-info input {
+    width: 350px;
+    border-radius: 20px;
+    outline: transparent;
+    border: transparent;
+    background-color: wheat;
+    padding: 5px 15px;
+  }
+  .msg-area {
+    width: 100%;
+  }
+  .msg-area textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: transparent;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: wheat;
+  }
+  .submit {
+    width: 200px;
+    align-items: center;
+    background-color: $theme;
+    color: white;
+    border: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
 }
-.popular-tour{
-    .slider-btn{
-        top: 65px;
+.footer {
+  background-color: #333333;
+  .services {
+    ul li {
+      list-style: none;
+      padding: 5px;
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .fb,
+    .insta,
+    .tweet,
+    .gplus,
+    .linkedin {
+      height: 45px;
+      width: 45px;
+      background-color: rgba(0, 0, 0, 0.39);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 25px;
+    }
+  }
+}
+.navbar-light .navbar-toggler {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  
+  color: $theme;
+}
+.navbar-light .navbar-toggler-icon {
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+    }
+  }
+
+  .pro-teams {
+    .team-img1,
+    .team-img2,
+    .team-img3 {
+      width: 200px;
+      height: 200px;
+      margin: auto;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  #rev3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+      color: white;
+      background-color: #212529;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+      background: #212529;
+      color: $theme;
+    }
+
+    .reviews {
+      .review-container {
+        margin: 50px 20%;
+      }
+    }
+    .pro-teams {
+      .team-img1 {
+        margin: auto;
+        width: 360px;
+        height: 360px;
+      }
+      .hide {
+        display: none;
+      }
+
+      .team-img1,
+      .team-img2,
+      .team-img3 {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+.up {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  background-color: #ff9f1c;
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    svg {
+      width: 150px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+      color: white;
+      background-color: #212529;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+      background: #212529;
+      color: $theme;
+    }
+    .middle-header {
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-warning {
+        font-size: 30px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .popular-tour {
+    .slider-btn {
+      top: 65px;
     }
     .info {
-
-    
-    .left{
-        h3{
-            font-size: 15px;
-            padding-top: 10px;
+      .left {
+        h3 {
+          font-size: 15px;
+          padding-top: 10px;
         }
-        p{
-            font-size: 10px;
+        p {
+          font-size: 10px;
         }
-    }
-    .right-price{
-        span{
-            font-size: 12px;
-        }
-    }
-}
-
-}
-.who{
-    .we-right-text{
-        h4{
-            padding-top: 15px;
-            font-size: 17px;
-        }
-        p{
-            font-size: 12px;
-        }
-        span{
-            font-size: 12px;
-        }
-    }
-}
-.features{
-    h4{
-        font-size:16px;
-    }
-    p{
-        font-size: 13px;
-    }
-}
-.reviews{
-    .review-container{
-        margin: 50px auto;
-    }
-}
-.pro-teams{
-    .team-info-flex{
-        .team-info{
-            margin: auto;
-        }
-        .hide{
-            display: none;
-        }
-    }
-}
-.interested{
-    .interest-tour{
-        h1{
-            font-size: 25px;
-        }
-        p{
-            font-size: 13px;
-        }
-        span{
-            font-size: 12px;
-        }
-    }
-}
-.quary{
-    .contacts{
-        flex-wrap: wrap;
-    }
-    form{
-        .form-info{
-            flex-wrap: wrap;
-            input{
-                margin: 7px auto;
-            }
-        }
-    }
-}
-.footer{
-    .footer-logo{
-      svg{
-          width: 120px;
       }
-      p{
-          font-size: 14px;
-      }   
-    }
-    .services{
-        h4{
-            font-size: 18px;
+      .right-price {
+        span {
+          font-size: 12px;
         }
-        ul li{
-            font-size: 13px;
-        }
+      }
     }
-    .follow-us{
-        padding-bottom: 15px;
-        h4{
-            font-size: 18px;
-        }
+  }
+  .who {
+    .we-right-text {
+      h4 {
+        padding-top: 15px;
+        font-size: 17px;
+      }
+      p {
+        font-size: 12px;
+      }
+      span {
+        font-size: 12px;
+      }
     }
+  }
+  .features {
+    h4 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .reviews {
+    .rev {
+      flex-direction: column;
+      margin: 20px;
+      padding: 0;
+    }
+  }
+  .pro-teams {
+    .team-info-flex {
+      .team-info {
+        margin: auto;
+      }
+      .hide {
+        display: none;
+      }
+    }
+  }
+  .interested {
+    .interest-tour {
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 13px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .quary {
+    .contacts {
+      flex-wrap: wrap;
+    }
+    form {
+      .form-info {
+        flex-wrap: wrap;
+        input {
+          margin: 7px auto;
+        }
+      }
+    }
+  }
+  .footer {
+    .footer-logo {
+      svg {
+        width: 120px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .services {
+      h4 {
+        font-size: 18px;
+      }
+      ul li {
+        font-size: 13px;
+      }
+    }
+    .follow-us {
+      padding-bottom: 15px;
+      h4 {
+        font-size: 18px;
+      }
+    }
+  }
 }
+@media screen and (max-width: 1000px) {
+  .rev {
+    display: flex !important;
+    justify-content: space-between;
+  }
 }
 
-
-@media  screen and (max-width:500px) {
- .header{
-    svg{
-        width: 150px;
+@media screen and (max-width: 500px) {
+  .header {
+    svg {
+      width: 150px;
     }
-    .navbar-light .navbar-nav .nav-link{
-            text-align: center;
-            color: white;
-            background-color: #212529;
-        
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+      color: white;
+      background-color: #212529;
     }
-    .navbar-light .navbar-nav .nav-link:hover{
-        background: #212529;
-        color: $theme;
+    .navbar-light .navbar-nav .nav-link:hover {
+      background: #212529;
+      color: $theme;
     }
-    
-}
-.rwd-hide{
+  }
+  .rwd-hide {
     display: none;
+  }
 }
-
-}
-@media screen and (max-width:400px) {
-    .customer{
-        padding-top: 2.5rem !important;
-        padding-bottom: 1.5rem !important;
-    }  
+@media screen and (max-width: 400px) {
+  .customer {
+    padding-top: 2.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
 }
