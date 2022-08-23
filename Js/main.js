@@ -55,6 +55,7 @@ $(window).scroll(function(){
 $(".up").click(function (){
     $(window).scrollTop(0);
 })
+
 (function(d,t) {
         var BASE_URL="https://omni.diyochat.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
