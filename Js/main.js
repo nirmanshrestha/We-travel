@@ -55,3 +55,17 @@ $(window).scroll(function(){
 $(".up").click(function (){
     $(window).scrollTop(0);
 })
+(function(d,t) {
+        var BASE_URL="https://omni.diyochat.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.diyochatSDK.run({
+            websiteToken: 'ZTLCjRpiRkCexqdopR825TdE',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
