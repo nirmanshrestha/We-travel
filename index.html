@@ -541,6 +541,22 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+     <script>
+      (function(d,t) {
+        var BASE_URL="https://omni.diyochat.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.diyochatSDK.run({
+            websiteToken: 'ZTLCjRpiRkCexqdopR825TdE',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./Js/owl.carousel.min.js"></script>
     <script src="./Js/main.js"></script>
