@@ -536,6 +536,20 @@
     <div class="up" style="display: none">
       <span class="text-light"><i class="fa fa-arrow-up"></i></span>
     </div>
+    <script>(function(d,t) {
+        var BASE_URL="https://omni.diyochat.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.diyochatSDK.run({
+            websiteToken: 'wFVCdF7YE2g1fafkZA87zfqZ',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script"); </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
