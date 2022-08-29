@@ -65,7 +65,7 @@ $(".up").click(function (){
         s.parentNode.insertBefore(g,s);
         g.onload=function(){
           window.diyochatSDK.run({
-            websiteToken: 'ZTLCjRpiRkCexqdopR825TdE',
+            websiteToken: 'K91SCb76o57j9fRWsi135Jrt',
             baseUrl: BASE_URL
           })
         }
